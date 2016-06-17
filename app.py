@@ -16,7 +16,7 @@ def index():
     randomNumber = randint(0,len(quotes)-1) 
     quote = quotes[randomNumber] 
  
-    return render_template('fortunecow.html', quote = quote)
+    return render_template('fortunecow.html', quote=quote)
 
 
 
